@@ -9,7 +9,7 @@ class PostList extends Component {
         id: 1,
         author: {
           name: "Jonas Tadeu",
-          avatar: ""
+          avatar: "https://i.pravatar.cc/150?img=13"
         },
         date: "12 Abr 2020",
         content: "Question",
@@ -17,17 +17,49 @@ class PostList extends Component {
           {
             id: 2,
             author: {
-              name: "Charles",
-              avatar: ""
+              name: "Carlotta",
+              avatar: "https://i.pravatar.cc/150?img=23"
             },
             date: "12 Abr 2020",
             content: "Reply"
           }
         ]
       },
+      {
+        id: 3,
+        author: {
+          name: "Jonas Tadeu",
+          avatar: ""
+        },
+        date: "12 Abr 2020",
+        content: "Question",
+        comments: [
+          {
+            id: 4,
+            author: {
+              name: "Charles",
+              avatar: ""
+            },
+            date: "12 Abr 2020",
+            content: "Reply"
 
+          },
+          {
+            id: 2,
+            author: {
+              name: "Carlotta",
+              avatar: "https://i.pravatar.cc/150?img=23"
+            },
+            date: "12 Abr 2020",
+            content: "Reply"
+
+          }
+        ]
+      }
     ]
-  };
+  }
+
+
   render() {
     const { posts } = this.state;
   
@@ -37,8 +69,8 @@ class PostList extends Component {
           <PostItem key={post.id} {...post} />
         ))}
       </div>
-    )
-  };
+    );
+  }
 }
 
 export default PostList;
