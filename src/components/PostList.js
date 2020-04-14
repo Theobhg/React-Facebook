@@ -12,50 +12,59 @@ class PostList extends Component {
           avatar: "https://i.pravatar.cc/150?img=13"
         },
         date: "12 Abr 2020",
-        content: "Question",
+        content: "Boa tarde pessoal, sou desenvolvedor back-end e trabalho com PHP e Node.js. Estou terminando a parte do servidor e gostaria de fazer o front-end também, conseguem me indicar uma boa biblioteca?",
         comments: [
           {
             id: 2,
             author: {
               name: "Carlotta",
-              avatar: "https://i.pravatar.cc/150?img=23"
+              avatar: "https://i.pravatar.cc/150?img=48"
             },
-            date: "12 Abr 2020",
-            content: "Reply"
+            content: 'Fala Jonas Tadeu, tudo certo? Gostei da sua iniciativa! Tente React para o Front!'
           }
         ]
       },
       {
         id: 3,
         author: {
-          name: "Jonas Tadeu",
-          avatar: ""
+          name: "Erik Gustavo",
+          avatar: "https://i.pravatar.cc/150?img=59"
         },
         date: "12 Abr 2020",
-        content: "Question",
+        content: "Fala galera, uma pesquisa rápida! Quais linguagens de programação que vocês trabalham e quais vocês mais gostam?",
         comments: [
           {
             id: 4,
             author: {
-              name: "Charles",
-              avatar: ""
+              name: "Charles Valdez",
+              avatar: "https://i.pravatar.cc/150?img=11"
             },
             date: "12 Abr 2020",
-            content: "Reply"
+            content: "Trabalho com Java e gosto de Java, kkk"
 
           },
           {
-            id: 2,
+            id: 5,
             author: {
-              name: "Carlotta",
+              name: "Daniela Dominika",
               avatar: "https://i.pravatar.cc/150?img=23"
             },
             date: "12 Abr 2020",
-            content: "Reply"
+            content: "Sou desenvolvedora web e sou apaixonada por toda atmosfera do JavaScript!"
+
+          },
+          {
+            id: 6,
+            author: {
+              name: "Jorge Mauro",
+              avatar: "https://i.pravatar.cc/150?img=67"
+            },
+            date: "12 Abr 2020",
+            content: "No trabalho uso c++ e em projetos pessoais costumo utilizar JS!"
 
           }
         ]
-      }
+      },
     ]
   }
 
